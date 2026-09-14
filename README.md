@@ -28,7 +28,7 @@ Project Kin 是我对长期个人 AI 伙伴的核心探索，马后炮是其中�
 
 | 项目 | 场景与目的 | 公开版本与当前进度 |
 | --- | --- | --- |
-| [Grokking恼](https://github.com/ChouchouPareto/grokking-nao) | 用 2D / 3D 关键词网络组织创意与商业思考 | v0.5.0 认知宇宙视觉版已合入 main，进入用户验证；深空粒子、核心轨道与关键词按需浮现；不代表公网已部署 |
+| [Grokking恼](https://github.com/ChouchouPareto/grokking-nao) | 用 2D / 3D 关键词网络组织创意与商业思考 | v0.5.0 认知宇宙｜深空粒子、核心轨道与关键词按需浮现 |
 | [阿甘学车](https://github.com/ChouchouPareto/agan-driving) | AI 学车伙伴“超级驾陪”，连接答疑、练习、鼓励与真人校长 | V2.1 Beta；题库 RAG、拍题、错题模考、场景卡与人工工单 |
 | [阿嬷学院](https://github.com/ChouchouPareto/amajia-academy) | 面向 40—60 岁女性的家政入门学习与专业陪学 | 公开 v0.5.1；前测—学习—后测—报告，内容审核与对话陪学；本地后续迭代尚未全部发布 |
 | [团绘AI](https://github.com/ChouchouPareto/tuanhui-ai-preview) | 为本地生活商家梳理素材与创作需求 | v1.2.0 前端界面展示；一键创作与专业创作确认流程，无后端或模型调用 |
