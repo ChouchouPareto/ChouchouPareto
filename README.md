@@ -56,6 +56,10 @@ Project Kin 是我对长期个人 AI 伙伴的核心探索，马后炮是其中�
 - **阿嬷学院：**v0.5.2 内测候选计划，优先课程审核、样板课与手机试学。未经专业审核的内容不作为正式培训课程。
 - **团绘AI：**素材整理与创作工作流体验；公开展示不等同于真实生成服务。
 
+## 方法与思考
+
+- [企业全员 AI 化：把个人效率变成组织能力](articles/organization-wide-ai-methodology.md)：从真实任务出发，建立业务知识、交付标准、工作流程与持续复盘机制。
+
 ## 可复用的工作
 
 - [Pareto Skills](https://github.com/ChouchouPareto/pareto-skills)：产品需求、中文写作与沟通。
