@@ -58,7 +58,8 @@ Project Kin 是我对长期个人 AI 伙伴的核心探索，马后炮是其中�
 
 ## 方法与思考
 
-- [企业全员 AI 化：把个人效率变成组织能力](articles/organization-wide-ai-methodology.md)：从真实任务出发，建立业务知识、交付标准、工作流程与持续复盘机制。
+- [企业全员 AI 化：从业务知识到可运行工作流](articles/organization-wide-ai-methodology.md)：完整实施路径、技术栈、知识检索、Skills 与试点验收。
+- [AI Workflow Playbook](https://github.com/ChouchouPareto/ai-workflow-playbook)：五个 Codex Skills、三个可运行业务示例，以及可以直接交给 Codex 的启动任务。
 
 ## 可复用的工作
 
