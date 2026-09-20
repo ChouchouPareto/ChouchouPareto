@@ -8,6 +8,10 @@
 
 这些状态之间有实际的门槛。工具安装、信息整理、质量判断、同事协作和知识维护，都需要专门设计。全员 AI 化要把这些环节连起来，使个人能力的提升逐步进入组织的日常运作。
 
+[图解导航](https://github.com/ChouchouPareto/ai-workflow-playbook/blob/main/docs/diagrams/README.md) · [Figma 可编辑画布](https://www.figma.com/board/slkRqLZNze5kOuf5ijj1RT)
+
+![企业全员 AI 化方法论思维导图](assets/ai-workflow-playbook/mindmap.png)
+
 ## 一、把转型拆成能够逐步推进的路径
 
 | 阶段 | 主要动作 | 要形成的结果 |
@@ -349,6 +353,8 @@ AI 应用可以从企业内部延伸到客户与供应商之间。
 
 ## 十三、将方法变成一套能维护的技术栈
 
+![本地技术架构：Codex、Skills、Python 与业务资料](assets/ai-workflow-playbook/architecture.png)
+
 技术栈首先要回答五件事：业务依据放在哪里，怎样找到有效依据，AI 按什么方法工作，哪些结果由程序校验，以及最终由谁接续执行。
 
 | 层次 | 本地起步方案 | 负责什么 | 何时需要升级 |
@@ -366,20 +372,9 @@ AI 应用可以从企业内部延伸到客户与供应商之间。
 
 方法适合先用明确步骤跑通。工作流中的条件、顺序和验收可预先确定时，简单组合更容易调试；需要灵活探索未知路径时，再给 Agent 更大的自主空间。这个选择与 Anthropic 对工作流和自主 Agent 的区分一致。[Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
 
-```mermaid
-flowchart TD
-    A[访谈 / 会议 / 客户需求] --> B[保留原始资料]
-    B --> C[业务审核后的知识与价格目录]
-    C --> D[按范围与日期检索]
-    D --> E[Codex 按 Skill 处理任务]
-    E --> F[结构化草稿]
-    F --> G[程序校验：引用 / 金额 / 依赖]
-    G --> H[业务负责人核实语义、资源与承诺]
-    H --> I[按实际授权执行与交付]
-    I --> J[失败与修改提案]
-    J --> K[审核 / 改版 / 回归检查]
-    K --> C
-```
+![工作流逻辑：检索、生成、校验、确认与改进](assets/ai-workflow-playbook/workflow.png)
+
+[查看原尺寸与编辑源](https://github.com/ChouchouPareto/ai-workflow-playbook/blob/main/docs/diagrams/README.md)
 
 图中的业务审核、交付和组织学习需要真实人员参与。仓库当前实现检索、三个业务任务的校验与结果存档，其他环节通过 Skills 和模板接续。
 
@@ -500,6 +495,8 @@ Skill 适合保存业务步骤、反例、输出合同和工具用法，不适�
 每个团队应当补齐四项约定：认可的输出样例、不可接受的反例、关键字段与不允许自行决定的事项，以及交付截止时间。这样 Codex 才能把抽象方法变成岗位可用的标准。
 
 ## 十七、用一个月建立可验证的采用路径
+
+![从真实任务到团队复用的六步实施长图](assets/ai-workflow-playbook/implementation.png)
 
 下面是一份可按节奏调整的试点安排。时间是计划建议，不是效果保证。
 
